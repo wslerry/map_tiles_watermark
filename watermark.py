@@ -9,8 +9,8 @@ import os
 from PIL import Image
 
 #Note:Path should be directed to zoom level folder.
-zoomlevel_path = r"./images"
-lgo = r"lerryws_watermark.png"
+zoomlevel_path = r"/to/zoomlevel/folder/"
+lgo = r"your_beautiful_logo_or_watermark.png"
 
 logo = Image.open(lgo)
 logoWidth = int(logo.width)
