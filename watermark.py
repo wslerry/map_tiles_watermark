@@ -9,7 +9,7 @@ import os
 from PIL import Image
 
 '''
-NOTE: Map tiles dimesion usually 256 X 256 px, so recommended watermark should be smaller than that.
+NOTE: Map tiles dimension usually 256 X 256 px, so recommended watermark should be smaller than that.
 '''
 
 #Note:Path should be directed to tile folder.
