@@ -26,8 +26,8 @@ for root, dirs, files in os.walk(tiles_path):
                 fd_path = folder_path + '/' + fd_directory
                 for filename in os.listdir(fd_path):
                     if (filename.endswith('.jpg') or filename.endswith('.png')):
+                        
                         image = Image.open(fd_path + '/' + filename)
-                        #print(fd_path + '/' + filename)
                         imageWidth = int(image.width)
                         imageHeight = int(image.height)
                         
