@@ -13,8 +13,8 @@ NOTE: Map tiles dimesion usually 256 X 256 px, so recommended watermark should b
 '''
 
 #Note:Path should be directed to tile folder.
-tiles_path = r"C:/xampp/htdocs/LeafletMBTiles/terrain2" #directory for tiles folder
-logo = Image.open(r"logo.png") #directory to logo or watermark
+tiles_path = r"path/to/map/tiles/folder" #directory for tiles folder
+logo = Image.open(r"path/to/your/beautiful/logo.png") #directory to logo or watermark
 logoWidth = int(logo.width)
 logoHeight = int(logo.height)
 
