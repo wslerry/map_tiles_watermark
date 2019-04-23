@@ -8,9 +8,9 @@ Created on Tue Apr  9 10:25:23 2019
 import os
 from PIL import Image
 
-'''
+"""
 NOTE: Map tiles dimension usually 256 X 256 px, so recommended watermark should be smaller than that.
-'''
+"""
 
 #Note:Path should be directed to tile folder.
 tiles_path = r"path/to/map/tiles/folder"
